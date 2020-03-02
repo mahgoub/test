@@ -6,8 +6,14 @@ user{ "solimm01":
    uid        =>  "342",
    name       =>   "solimm01",
    managehome => true,
+}
 
 
+
+file { "/tmp/motd.txt":
+  
+  present => "file",
+  source  =>
 
 
 
