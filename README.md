@@ -1,1 +1,2 @@
-github test
+Puppet!
+pulling puppet catlog onto servers
