@@ -12,6 +12,7 @@ user{ "solimm01":
 
 file { "/tmp/motd.txt":
   
+  present => "file",
   source  => "https://github.com/mahgoub/test/blob/master/puppet/manifests/motd.txt",
 
 
