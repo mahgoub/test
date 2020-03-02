@@ -1,1 +1,14 @@
-#site.pp
+#
+
+user{ "solimm01":
+
+   ensure =>  "present",
+   uid    =>  "342",
+   name  =>   "solimm01",
+   managedhome => "enable",
+
+
+
+
+
+}
